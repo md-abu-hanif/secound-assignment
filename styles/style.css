@@ -3,6 +3,79 @@ body{
     background-color: #F3F1FF;
 }
 
+/*---------------------------
+         banner style 
+------------------------- */
+
+.banner{
+    background-color: rgb(184, 169, 196);
+    height: 374px;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:  80%;
+    height: 50px;
+    margin: 0%;
+    padding-right: 10px;
+    font-size: 20px; 
+    padding-top: 0px; 
+}
+
+.header a{
+    text-decoration: none;
+     color: white; 
+    margin-right: 19px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+nav a:hover{
+    color: red;
+    background-color: black;
+}
+
+.header>span{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 220px;
+    height: 34px;
+    left: 210px;
+    text-decoration: none;
+    color: white;
+    background-color: #402C6D;
+    border-radius: 10px;  
+} 
+
+
+
+.banner img{
+    width: 390px;
+    padding-left: 700px;
+}
+
+/* .title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 0;  */
+}
+
+.title h1{
+    width: 17%;
+    position: relative;
+    bottom: 25px;
+    font-size: 70px;
+    word-wrap: wrap;
+    text-align: left;
+    color: white;    
+}
+
 /* -------------
 player style 
 ---------------- */
@@ -12,11 +85,11 @@ player style
     justify-content: center;
     align-items: center;
     grid-gap: 30px;
-    margin-left: 20.3%;
-    width: 1050px;
+    margin-left: 28%;
+    width: 600px;
     text-align: center;
     word-wrap: wrap;
-
+    padding-top: 30px;
 }
 .player{
     background-color: #FFFFFF;
@@ -25,6 +98,7 @@ player style
     margin-left: 10px;
     padding-right: 10px;
     box-shadow: 5px 5px 40px gray;
+    text-shadow: none;
 
 }
 
