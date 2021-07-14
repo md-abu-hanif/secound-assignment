@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+/* -------------
+player style 
+---------------- */
+.menu-container{
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+    margin-left: 20.3%;
+    width: 1050px;
+    text-align: center;
+    word-wrap: wrap;
+
+}
+.player{
+    background-color: #FFFFFF;
+    height: 474px;
+    width: 330px;
+    margin-left: 10px;
+    padding-right: 10px;
+    box-shadow: 5px 5px 40px gray;
+
+}
+
+.player img{
+    width: 300px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
