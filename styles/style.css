@@ -8,7 +8,7 @@ body{
 ------------------------- */
 
 .banner{
-    background-color: rgb(184, 169, 196);
+    background-color: rgb(64, 28, 192);
     height: 374px;
     width: 100%;
 }
@@ -34,8 +34,8 @@ body{
 }
 
 nav a:hover{
-    color: red;
-    background-color: black;
+    color: rgba(192, 31, 31, 0.788);
+    background-color: rgba(22, 10, 5, 0.774);
 }
 
 .header>span{
@@ -48,34 +48,33 @@ nav a:hover{
     left: 210px;
     text-decoration: none;
     color: white;
-    background-color: #402C6D;
+    background-color: #917b32;
     border-radius: 10px;  
 } 
 
-
-
-.banner img{
-    width: 390px;
-    padding-left: 700px;
-}
-
-/* .title{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 0;  */
-}
-
 .title h1{
-    width: 17%;
+    width: 27%;
     position: relative;
     bottom: 25px;
-    font-size: 70px;
+    font-size: 45px;
     word-wrap: wrap;
     text-align: left;
-    color: white;    
+    color: white;  
+    padding-left: 55px;  
 }
 
+.live{
+    position: relative;
+    left: 190px;
+    bottom: 100px;
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: #E02C6D;
+    text-decoration: none;
+    align-items: center;  
+}
 /* -------------
 player style 
 ---------------- */
