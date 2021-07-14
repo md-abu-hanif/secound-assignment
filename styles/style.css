@@ -21,8 +21,8 @@ body{
     height: 50px;
     margin: 0%;
     padding-right: 10px;
-    font-size: 20px; 
-    padding-top: 0px; 
+    font-size: 18px; 
+    /* padding-top: 0px;  */
 }
 
 .header a{
@@ -38,7 +38,7 @@ nav a:hover{
     background-color: rgba(22, 10, 5, 0.774);
 }
 
-.header>span{
+.header span{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -124,6 +124,22 @@ player style
     transform: scale(1.5);
   transition: transform 2s ease-in-out;
 }
+/*------------------
+    Middle Style 
+--------------------- */
+.middle{
+    display: flex;
+    margin-top: 50px;
+}
+.middle-style{
+    width: 40%;
+    padding: 6%;
+}
+.middle-style img{
+    width: 99%;
+    float: right;
+    border-radius: 25px;
+}
 /*----------------------------
          Footer Styles
 ---------------------------- */
@@ -165,6 +181,8 @@ player style
     line-height: 28px;
     font-size: 24px;
 }
+
+
 
 /* Media Queries */
 
